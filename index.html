@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<script src="js/scripts.js"></script>
+	<title>Celebrity Dating Quiz</title>
+</head>
+
+<body>
+	<div>
+		<h1>Celebrity Partner</h1>
+
+		<p>Welcome to the Celebrity Partner Finder</p>
+		<p>At Celebrity Partner Finder you need to be a certain age and height catch a celeb.</p>
+		<p>Enter your age and height in the form below and we'll show you what celebs you can date.</p>
+
+		<form id="userInfo">
+			<p id="error-message" class="hidden">Please enter an age and height in whole numbers.</p>
+			<label for="age">Age</label>
+			<input id="age" type="text" name="age">
+			<label for="height">Height in inches</label>
+			<input id="height" type="text" name="height">
+			<button type="submit">Show me my celebrity!</button>
+		</form>
+
+		<div id="George Clooney" class="hidden">
+			<h1>You can date George Clooney.</h1>
+			<p>To date George you need to be older than 18.</p>
+		</div>
+		<div id="Leonardo DeCaprio" class="hidden">
+			<h1>You can date Leonardo DeCaprio.</h1>
+			<p>To date Leo you need to be older than 25.</p>
+		</div>
+		<div id="Timothee Chalamet" class="hidden">
+			<h1>You can date Timothee Chalamet.</h1>
+			<p>To date Timothee Chalamet you need to be exactly 18 years old.</p>
+		</div>
+		<div id="sorry" class="hidden">
+			<h1>You are too young to date! Sorry!</h1>
+			<p>Come back when you are 18 years old.</p>
+		</div>
+	</div>
+</body>
+
+</html>
